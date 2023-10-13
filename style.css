@@ -449,3 +449,56 @@ p.news {
     padding-bottom: 15px;
 }
 
+
+
+/* ADDING RESPONSIVNESS  */
+@media (max-width: 1200px) {
+
+    .profileIcons {
+        display: none;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2em;
+
+    }
+} 
+
+@media (max-width: 850px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+   .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+   }
+
+   .sidebar {
+    width: 2em;
+    }
+
+    .thirdColumn {
+        display: none;
+    }
+}
+
+@media (max-width: 1600px) {
+    .pairs {
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+    }
+
+    .thirdColumn {
+       max-height: 100vh;
+    }
+  
+}
