@@ -12,8 +12,9 @@
             <div class="dashboardLogo" id="logo">
                 <img src="./logos/view-dashboard.svg" alt="">
             </div>
+            <div class="emptygrid"></div>
             <div class="homeLogo" id="logo">
-                <img src="./logos/home-account.svg" alt="">
+                <img src="./logos/home.svg" alt="">
             </div>
             <div class="profileLogo" id="logo">
                 <img src="./logos/card-account-details.svg" alt="">
@@ -25,8 +26,9 @@
                 <img src="./logos/clock-time-eight.svg" alt="">
             </div>
             <div class="lotsizeLogo" id="logo">
-                <img src="./logos/currency-usd (1).svg" alt="">
+                <img src="./logos/hand-coin.svg" alt="">
             </div>
+            <div class="emptygrid2"></div>
             <div class="settingsLogo" id="logo">
                 <img src="./logos/cog.svg" alt="">
             </div>
@@ -41,25 +43,106 @@
             <div class="profile" id="text">Profile</div>
             <div class="messages" id="text">Messages</div>
             <div class="history" id="text">History</div>
-            <div class="lotsize" id="text">Lot size calculator</div>
+            <div class="lotsize" id="text">Lot size </div>
             <div class="settings" id="text">Settings</div>
             <div class="support" id="text">Support</div>
             <div class="privacy" id="text">Privacy</div>
     </section>
 
     <section class="header">
-        <div class="searchbar">Searchbar</div>
-        <div class="profile">Profile Icons</div>
-        <div class="navbar">Navbar</div>
+        <div class="searchbar">
+            <img src="./logos/magnify.svg" alt="">
+            <input type="text">
+        </div>
+        <div class="profileIcons">
+            <img src="./logos/bell-ring.svg" alt="" class="bell">
+            <img src="./logos/kid.svg" alt="" class="kid">
+            <div class="name">Caragea Denis</div>
+        </div>
+        <div class="navbar">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
+        <div class="welcome">
+            <img src="./logos/kid.svg" class="kidWelcome">
+            <div class="welcomeText">Hi there,
+                <div class="welcomeName">Caragea Denis (@caragea)</div>
+            </div>
+        </div>
     </section>
 
     <section class="main">
         <div class="pairs">
-            <div class="card">GBP/USD</div>
-            <div class="card">GBP/USD</div>
-            <div class="card">GBP/USD</div>
-            <div class="card">GBP/USD</div>
-            <div class="card">GBP/USD</div>
+            <div class="mainText">Trading Pairs</div>
+            <div class="card" id="gbpusd">
+                <h1>GBP/USD</h1>
+                <p>The EUR/USD pair reached a fresh 2023 low of 1.0447, trimming part of its weekly losses ahead of the close to end the week at around 1.0520.</p>
+            </div>
+            <div class="card" id="eurusd">
+                <h1>EUR/USD</h1>
+                <p>The EUR/USD pair reached a fresh 2023 low of 1.0447, trimming part of its weekly losses ahead of the close to end the week at around 1.0520.</p>
+            </div>
+            <div class="card" id="audusd">
+                <h1>AUD/USD</h1>
+                <p>The EUR/USD pair reached a fresh 2023 low of 1.0447, trimming part of its weekly losses ahead of the close to end the week at around 1.0520.</p>
+            </div>
+            <div class="card" id="eurgbp">
+                <h1>EUR/GBP</h1>
+                <p>The EUR/USD pair reached a fresh 2023 low of 1.0447, trimming part of its weekly losses ahead of the close to end the week at around 1.0520.</p>
+            </div>
+            <div class="card" id="usdcad">
+                <h1>USD/CAD</h1>
+                <p>The EUR/USD pair reached a fresh 2023 low of 1.0447, trimming part of its weekly losses ahead of the close to end the week at around 1.0520.</p>
+            </div>
+            <div class="card" id="us30">
+                <h1>US30</h1>
+                <p>The EUR/USD pair reached a fresh 2023 low of 1.0447, trimming part of its weekly losses ahead of the close to end the week at around 1.0520.</p>
+            </div>
+            <div class="thirdColumn">
+                <div class="annouce">Annoucements</div>
+                <div class="card2" id="news">
+                    <div class="content1">
+                        <h1 class="news">CANADIAN DOLLAR FUNDAMENTAL BACKDROP</h1>
+                        <p class="news">The Canadian dollar has been at the mercy of US specific factors, with particular emphasis on soaring US Treasury yields that have bolstered the greenback against all major currencies.</p>
+                    </div>
+                    <div class="content2">
+                        <h1 class="news">US Dollar Third Quarter Recap – Rising Terminal Federal Funds Rate Bets
+                        </h1>
+                        <p class="news">For the most part, the US Dollar aimed higher in the third quarter of 2023. In fact, the DXY Dollar Index rallied for an impressive 9 consecutive weeks, matching performance from 2014. </p>
+                    </div>
+                    <div class="content3">
+                        <h1 class="news">POUND STERLING’S COUNTERTREND RISE IS AT RISK AFTER STICKY US CPI REPORT LIFTS USD</h1>
+                        <p class="news">Stickier inflation in the US prompted a lift in the US dollar yesterday, with the ripple effect bringing an end to the recent countertrend move across major FX pairs vs the dollar</p>
+                    </div>
+                </div>
+                <div class="market">Market Sentiment</div>
+                <div class="card2" id="sentiment">
+                    <img src="./logos/Andreea.png" class="people" id="andreea">
+                    <img src="./logos/Denis.png" class="people" id="denis">
+                    <img src="./logos/Jeff.png" class="people" id="jeff">
+                    <img src="./logos/Martin.png" class="people" id="martin">
+                    <div class="andreeaText">
+                        <h1 class="h1Text">@andreea</h1>
+                        <h2 class="h2Text">Andreea is holding a buy on EUR/USD until 1.12000.</h2>
+                    </div>
+
+                    <div class="denisText">
+                        <h1 class="h1Text">@denis</h1>
+                        <h2 class="h2Text">Denis is holding a sell on GBP/USD until 1.20000.</h2>
+                    </div>
+
+                    <div class="jeffText">
+                        <h1 class="h1Text">@jeff</h1>
+                        <h2 class="h2Text">Jeff is waiting for EUR/USD to reach 1.12450.</h2>
+                    </div>
+
+                    <div class="martinText">
+                        <h1 class="h1Text">@martin</h1>
+                        <h2 class="h2Text">Martin is swinging a position on EUR/USD from 1.11000 to 1.12000.</h2>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
